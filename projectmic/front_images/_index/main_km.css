@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url("main_ch.css");
+
+* {
+	font-family: "Hanuman", "Arial", "微軟正黑體", "細明體";
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.language03{
+	font-weight: normal;
+	}
+
+	
+option{
+	font-weight: normal;
+	}
+h1{
+	font-weight: normal;
+	}
+.gray {
+	font-weight: normal;
+	}
+
+}
+
+.main{
+	background-image: url(images/background_km.jpg);
+	height: 300px;
+	width: 985px;
+	margin-left: 7.5px;
+}
+/*language*/
+.wrapper {
+	width: 1000px;
+	background-color:#FFF;
+	margin-right: auto;
+	margin-left: auto;
+}
+.language03{
+	text-align:right;
+	padding:2px 20px 15px 0;
+	color:#666;
+	}
+	
+	
+option{
+	color:#26466C;
+	}
+	
+/*language_end*/
+
+h1{
+	font-size:12px;
+	}
+	
+h2 {
+	font-size:15px;
+	}
+p{
+	font-size:11px;
+	margin:0 0 15px 0;
+	}
+.advAll li p{
+	  font-size:11px;
+	  font-weight:normal;
+	  letter-spacing:1pt;
+	}
+.advAll li span{
+	  font-size:11px;
+	  font-weight:normal;
+	}
+	
+.gray {
+	font-size:13px;
+	}
+	
+select {
+	color: black;
+	font-size:12px;
+	height:18px;
+	line-height:15px;
+	font-family: Hanuman,Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+}
+	
+.login_btn, .login_btn_over  {
+	width: 150px;
+	background-image: url(images/login_km.gif);
+	font-size:10px;
+}
+
+.info_right {
+	width: 230px;
+	float: left;
+	margin: 0px 10px 20px 10px;
+}
+
+.login{
+	float: right;
+	width: 205px;
+	margin: 50px 25px 20px 25px;
+	_margin: 50px 12px 20px 0px;
+	\9margin: 50px 12px 20px 0px;
+	*margin: 50px 12px 20px 0px;
+}
+
+.login_btn, .login_btn_over  {
+	height: 35px;
+	width: 150px;
+	font-size:11px;
+	background: url(images/login_km.gif);
+	_background: url(images/login_km.gif);
+	*background: url(images/login_km.gif);
+	\9background: url(images/login_km.gif);
+	background-position: 0px 0px;
+	color: #FFF;
+	_color: #FFF;
+	text-align: center;
+	margin-top: 2px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	border-style: none;
+	padding-bottom: 4px;
+}

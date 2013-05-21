@@ -1,0 +1,49 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="front_images/_index/main_en.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.getUrlParam.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="language03"> Language
+    <label>
+      <select disabled="disabled">
+        <option value="en" selected="selected">English</option>
+        <option value="ch">中文</option>
+        <option value="th">ภาษาไทย</option>
+        <option value="vi">Việt</option>
+        <option value="km">Khmer</option>
+      </select>
+    </label>
+  </div>
+  <div class="logo_brokery"></div>
+  <div class="about_wrap"> <span class="corner_left"></span> <span class="corner_right"></span>
+    <ul>
+      <li><a href="#" onclick="link('index.php');">Home</a>&nbsp;&nbsp;&nbsp;|</li>
+      <li><a href="#" onclick="link('about_us_en.html');">About Us</a>&nbsp;&nbsp;&nbsp;|</li>
+      <li><a href="#">Registration</a></li>
+    </ul>
+  </div>
+  <div class="title-wrap">
+    <h2>Registration</h2>
+  </div>
+  <div class="content">
+    <h3 class="notice_wrap">This page is under construction.</h3>
+    <p style="text-align:center;">If you would like to open an account, please email to <a href="mailto:registration@brokery.com">registration@brokery.com</a></p>
+  </div>
+  <div class="footer"> <span>&copy; Copyrights 2011. All Right reserved</span> </div>
+</div>
+<script type="text/javascript">
+	function link(url) {
+		window.location = url+ "?lang="+ $(document).getUrlParam('lang');
+		return false;
+	}
+</script>
+</body>
+</html>

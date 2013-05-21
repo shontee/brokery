@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<cross-domain-policy>
+  <allow-access-from domain="*.citibet.net" />
+  <allow-access-from domain="*.lk988.net" />
+  <allow-access-from domain="*.hbobet.net" />
+  <allow-access-from domain="*.hbo988.net" />
+  <allow-access-from domain="122.147.59.60" />
+  <allow-access-from domain="63.221.81.77" />
+  <allow-access-from domain="180.222.204.173" />
+  <allow-access-from domain="*.brokery.com" />
+  <allow-access-from domain="*.fxsbo.com" />
+  <allow-access-from domain="*.fsb328.com" />
+  <allow-access-from domain="*.cfdmart.com" />
+  <allow-access-from domain="*.hgsbo.com" />
+  <allow-access-from domain="*.crowngold.net" />
+  <allow-access-from domain="*.cj3388.net" />
+  <allow-access-from domain="*.cj3388.com" />
+  <allow-access-from domain="*.cj2228.net" />
+  <allow-access-from domain="*.cj2228.com" />
+  <allow-access-from domain="*.demosb.net" />
+  <allow-access-from domain="*.cfd328.com" />
+  <allow-access-from domain="*.cfd2228.com" />
+  <allow-access-from domain="*.cfd3388.com" />  
+  <allow-access-from domain="127.0.0.1" />  
+  <allow-access-from domain="localhost:8888" />  
+</cross-domain-policy>

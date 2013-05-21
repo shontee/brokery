@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url("main_ch.css");
+.main{
+	background-image: url(images/background_th.jpg);
+	height: 300px;
+	width: 985px;
+	margin-left: 7.5px;
+}
+
+body {
+	font-family: Hanuman,Arial, Helvetica, sans-serif;
+}
+select {
+	color: black;
+	font-size:12px;
+	height:18px;
+	line-height:15px;
+	font-family: Hanuman,Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+}
+.login{
+	float: right;
+	width: 205px;
+	margin: 50px 25px 20px 25px;
+	_margin: 50px 12px 20px 0px;
+	\9margin: 50px 12px 20px 0px;
+	*margin: 50px 12px 20px 0px;
+}
+.login_btn, .login_btn_over  {
+	height: 35px;
+	width: 90px;
+	background: url(images/login.gif);
+	_background: url(images/login.gif);
+	*background: url(images/login.gif);
+	\9background: url(images/login.gif);
+	background-position: 0px 0px;
+	color: #FFF;
+	_color: #FFF;
+	text-align: center;
+	margin-top: 2px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	border-style: none;
+	padding-bottom: 4px;
+}

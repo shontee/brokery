@@ -1,0 +1,115 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="front_images/_index/main_en.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.getUrlParam.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="language03"> Language
+    <label>
+      <select disabled="disabled">
+        <option value="en" selected="selected">English</option>
+        <option value="ch">中文</option>
+        <option value="th">ภาษาไทย</option>
+        <option value="vi">Việt</option>
+        <option value="km">Khmer</option>
+      </select>
+    </label>
+  </div>
+  <div class="logo_brokery"></div>
+  <div class="about_wrap"> <span class="corner_left"></span> <span class="corner_right"></span>
+    <ul>
+      <li><a href="#" onclick="link('index.php');">Home</a>&nbsp;&nbsp;&nbsp;|</li>
+      <li><a href="#">About Us</a>&nbsp;&nbsp;&nbsp;|</li>
+      <li><a href="#" onclick="link('register_en.html');">Registration</a></li>
+    </ul>
+  </div>
+  <div class="title-wrap">
+    <h2>About Us</h2>
+  </div>
+  <div class="content">
+    <h3>The Brokery Group</h3>
+    <p>As a pioneer and innovator of the retail foreign exchange industry. Brokery Group has long established itself as the provider of online trading services in the Foreign exchange market, serving clients since 1994.</p>
+    <p>Brokery financial platform provides professional services to our clients with a wide range of services including dealing in Index Futures, Gold Futures, Crude Oil Futures, Forex and etc. Brokery involves in every development process with our comprehensive skill from the initial product implementation, continuous technical support and functional security in the indices, futures and foreign exchange to operation and transactions.</p>
+    <img style="float: right" src="front_images/_index/images/about_icon.gif" width="126" height="130" />
+    <p>To satisfy the needs of each and every client's specific requirements, Brokery strives to provide reliable, professional services with precision. In Brokery, we expand our knowledge and services to assist our client to transact successfully in the most effective and reliable trading environment, as to meet the needs and satisfaction of our clients.</p>
+    <h3>State of the Art Online Trading System</h3>
+    <p>With our unique advantages in the latest Information Technology in computer hardware and technical expertise, Brokery creates a solution comprises the use of the internet to link with our clients with accurate up-to-date information. Technologies we implemented and endless innovations, delivers a performance-enhancing solution. Our extensive industry knowledge is combined with timeliness information flow.</p>
+    <p>Our enthusiastic in comprehensive services enables our clients to experience an effective, professional service and trading platform. Therefore, our reliable brokerage services help our clients to capture favorable investment opportunities or portfolio management.</p>
+    <p class="hightlight">Brokery Pte Ltd is incorporated in the British Virgin Islands with a paid-up capital of USD1,000,000.</p>
+  </div>
+  <div class="contact">
+    <dl class="dot_right">
+      <dt>Contact Us</dt>
+      <dd>
+        <p><span class="flag virgin"></span><strong> British Virgin Islands</strong><br/>
+          Main HeadQuarters<br/>
+          4th Floor Omar Hodge Building,<br/>
+          Wickhams Cay 1, 362 Rd Town,<br/>
+          Tortola, British Virgin Islands</p>
+        <ul>
+          <li><strong>Customer Support:</strong></li>
+          <li>Call: +639081876052</li>
+          <li>Email: support@brokery.com</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl>
+      <dt>Bank Info</dt>
+      <dd>
+        <p>Barclays Bank PLC<br/>
+          2 Churchill Place,<br/>
+          Canary Wharf, London E14 5RB,<br/>
+          United Kingdom</p>
+        <ul>
+          <li>Account No: BROKERYYQS-USD1</li>
+          <li>Sort Code: 13-2023</li>
+        </ul>
+      </dd>
+    </dl>
+    <dl class="Affiliates">
+      <dt>Affiliates</dt>
+      <dd>
+        <p><span class="flag malaicia"></span><strong>Malaysia</strong><br/>
+          Unit 803, Level 8,<br/>
+          King George Bldg, Georgetown,<br/>
+          Penang, Malaysia</p>
+      </dd>
+      <dd>
+        <p><span class="flag philips"></span><strong>Philippines</strong><br/>
+          Unit 3601,<br/>
+          22 Corporate Centre Bldg,<br/>
+          93 Valero St,<br/>
+          Salsedo, Makati Centre,<br/>
+          1220 Philippines</p>
+      </dd>
+      <dd>
+        <p><span class="flag indo"></span><strong>Indonesia</strong><br/>
+          Kompleks Regency Park,<br/>
+          Blok 11, No. 11 Pelitta,<br/>
+          Pulau Batam, Indonesia</p>
+      </dd>
+      <dd>
+        <p><span class="flag thailand"></span><strong>Thailand</strong><br/>
+          128 Soi Sukhumvit,<br/>
+          Main Street,<br/>
+          Bangkok, Thailand</p>
+      </dd>
+    </dl>
+  </div>
+  <div class="footer"> <span>&copy; Copyrights 2011. All Right reserved</span> </div>
+</div>
+<script type="text/javascript">
+	function link(url) {
+		window.location = url+ "?lang="+ $(document).getUrlParam('lang');
+		return false;
+	}
+</script>
+</body>
+</html>

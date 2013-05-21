@@ -1,0 +1,337 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+
+body{
+	background-color:#d7d7d7;
+	font-family: "Arial", "微軟正黑體", "細明體";
+	font-size: 13px;
+	color: #7e7e7e;
+	line-height: 18px;
+}
+.space {
+	clear: both;
+}
+a {
+	color: #3e5478;
+	text-decoration: none;
+}
+a:hover{
+	color: #005a8e;
+	text-decoration: underline;
+}
+h1 {
+	font-size: 16px;
+	color: #001c5d;
+}
+h2 {
+	font-size: 18px;
+	color: #609bc2;
+	font-weight: 100;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d9d9d9;
+	padding: 20px 0px 5px 0px;
+	margin: 0px 0px 10px 0px;
+}
+.gray {
+	font-size: 16px;
+	color: #4d4d4d;
+	line-height: 30px;
+	font-weight: bold;
+}
+.orange {
+	font-size: 18px;
+	color: #ff6900;
+	line-height: 20px;
+	padding-top: 10px;
+}
+.error {
+	font-size: 12px;
+	color: #bb0000;
+	line-height: 18px;
+}
+/*language*/
+.wrapper {
+	width: 1000px;
+	background:none;
+	background-color:#FFF;
+	margin:0 auto 0 auto;
+}
+.language03{
+	width:100%;
+	background-color:#D7D7D7;
+	text-align:right;
+	height:26px;
+	padding:4px 0 0 0;
+	color:#666;
+	font-weight:bold;
+	margin-bottom:9px;
+	}
+	
+select {
+	color: black;
+	font-size:12px;
+	height:18px;
+	line-height:15px;
+	font-family: Hanuman,Arial, Helvetica, sans-serif;
+	margin:2px 0 0 0;
+}
+	
+option{
+	color:#26466C;
+	font-weight:bold;
+	}
+	
+/*language_end*/
+.line{
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3e5478;
+}
+.logo{
+	background-image: url(images/logo.jpg);
+	height: 40px;
+	margin: 8px 10px;
+	background-repeat: no-repeat;
+}
+.logo_cfdmart{
+	background-image: url(images/CFDMART_big.jpg);
+	height: 40px;
+	margin: 8px 10px;
+	background-repeat: no-repeat;
+}
+.logo_fsb328{
+	background-image: url(images/fsb328_big.jpg);
+	height: 40px;
+	margin: 8px 10px;
+	background-repeat: no-repeat;
+}
+.logo_brokery{
+	background-image: url(images/BROKERYMETAL.png);
+	height: 40px;
+	margin: 8px 10px;
+	background-repeat: no-repeat;
+}
+
+/*---------------about---------------------*/
+.about_wrap{
+	width:985px;
+	height:24px;
+	line-height:24px;
+	background:#0D3B6D;
+	margin:0 auto 2px;
+	color:#B1D2E9;
+	font-size:12px;
+}
+.about_wrap a:link,.about_wrap a:active,.about_wrap a:hover,.about_wrap a:visited{color:#B1D2E9; font-weight:bold;}
+.corner_left,.corner_right{
+	display:block;
+	width:4px;
+	height:24px;
+}
+	.corner_left{float:left; background: url(images/corner_left.gif) no-repeat;}
+	.corner_right{float:right; background: url(images/corner_right.gif) no-repeat;}
+.about_wrap ul{
+	display:inline;
+	float:right;
+	margin-right:15px;
+}
+	.about_wrap ul li{
+		display:inline;
+		padding:0 5px;
+	}
+/*-----------------------------------------*/
+
+.main{
+	background-image: url(images/background_ch.jpg);
+	height: 300px;
+	width: 985px;
+	margin-left: 7.5px;
+}
+.login{
+	float: right;
+	width: 205px;
+	margin: 50px 25px 20px 25px;
+	_margin: 50px 12px 20px 0px;
+	\9margin: 50px 12px 20px 0px;
+	*margin: 50px 12px 20px 0px;
+}
+.login table {
+	width: 205px;
+}
+.login table tr td {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.captcha_table {
+	width: 100%;
+}
+.textbox {
+	width: 196px;
+	height: 25px;
+	float: left;
+	border: 1px solid #a1a1a1;
+	margin-right: 4px;
+	color: #a1a1a1;
+}
+.textbox2 {
+	width: 105px;
+	height: 25px;
+	float: left;
+	border: 1px solid #a1a1a1;
+	margin-right: 4px;
+	color: #a1a1a1;
+}
+.textbox3 {
+	width: 80px;
+	height: 25px;
+	float: left;
+	border: 1px solid #a1a1a1;
+	margin-right: 4px;
+	color: #a1a1a1;
+}
+.login_btn, .login_btn_over  {
+	height: 35px;
+	width: 90px;
+	background: url(images/login.gif);
+	_background: url(images/login.gif);
+	*background: url(images/login.gif);
+	\9background: url(images/login.gif);
+	background-position: 0px 0px;
+	color: #FFF;
+	_color: #FFF;
+	text-align: center;
+	margin-top: 2px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	border-style: none;
+	padding-bottom: 4px;
+}
+
+.login_btn_over  {
+	background-image: url(images/login.gif);
+	background-position: 0px -35px;
+}
+.info_left {
+	width: 672px;
+	float: left;
+	margin: 0px 25px 20px 30px;
+	_margin: 0px 25px 20px 15px;
+}
+.prices {
+	border: 1px solid #CCC;
+	width: 670px;
+	height: 200px;
+}
+.swf {
+	width: 670px;
+	background-color: #FFF;
+}
+.info_right {
+	width: 230px;
+	float: left;
+	margin: 0px 10px 20px 25px;
+}
+.info_right ul{
+}
+.info_right ul li{
+	list-style-position: outside;
+	list-style-type: disc;
+	margin:0px 0px 5px 15px;
+}
+.footer {
+	height: 28px;
+	background-color: #eee;
+	width: 100%;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.footer span {
+	margin-left:20px;
+	line-height:24px;
+}
+.footer ul {
+	float:right;
+	margin-right:10px;
+}
+.footer ul li {
+	float:left;
+	text-indent:-5555;
+	width:24px;
+	height:24px;
+	margin:0px 5px;
+}
+.footer ul li a {
+	width:24px;
+	height:24px;
+	display:block;
+}
+.footer .hk_flag {
+	background-image:url(images/flags/Hong-Kong.jpg);
+}
+.footer .cn_flag {
+	background-image:url(images/flags/China.jpg);
+}
+.footer .kr_flag {
+	background-image:url(images/flags/South-Korea.jpg);
+}
+.footer .jp_flag {
+	background-image:url(images/flags/japan.jpg);
+}
+.footer .id_flag {
+	background-image:url(images/flags/Indonesia.jpg);
+}
+.footer .sg_flag {
+	background-image:url(images/flags/Singapore.jpg);
+}
+.footer .my_flag {
+	background-image:url(images/flags/Malaysia.jpg);
+}
+.footer .th_flag {
+	background-image:url(images/flags/Thailand.jpg);
+}
+.vp {
+	height:27px;
+	width:85px;
+}
+/*---------------title---------------------*/
+.title-wrap{
+	width:985px;
+	height:92px;
+	background-image:url(images/about_img.jpg);
+	margin:0 auto;
+	padding-top:5px;
+}
+	.title-wrap h2{
+		color:#fff;
+		font-size:18px;
+		line-height:24px;
+		margin:0 0 0 10px;
+		border:0px solid #fff;
+		padding:0;
+	}
+/*-----------------------------------------*/
+.content{
+	width:955px;
+	margin:0 auto;
+	padding:10px 15px 50px;
+}
+	.content h3{
+		color:#005FAD;
+		font-size:15px;
+		line-height:20px;
+		margin:15px 0 10px;
+	}
+	.content p{
+		margin-bottom:10px;
+	}
+	.content img{
+		margin:5px;
+	}
