@@ -15,12 +15,12 @@ function call_video(){
 	 flashvars.userid= "<?php echo $_SESSION['jigowatt']['username']; ?>"; 
 	 flashvars.sessionid= "<?php echo $_SESSION['jigowatt']['sessionid']; ?>";
 	 swfobject.embedSWF(
-	 "images/listener0018.swf",
+	 "images/listener0617.swf",
 	 "flashcontent",
 	 "550",
 	 "400",
 	 "9.0.0",
-	 "images/listener0018.swf",
+	 "images/listener0617.swf",
 	 flashvars,
 	 {"userid": "<?php echo $_SESSION['jigowatt']['username']; ?>",
 	 "sessionid": "<?php echo $_SESSION['jigowatt']['sessionid']; ?>"});
