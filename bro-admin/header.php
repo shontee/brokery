@@ -44,10 +44,8 @@
 				<h3><a class="brand" href="home.php"><?php _e('Brokery Admin'); ?></a></h3>
 				<div class="nav-collapse">
 					<ul class="nav">
-						
-							<?php if( protectThis("1, 2")) { ?>
 							<li><a href="home.php"><?php _e('Listener'); ?></a></li>
-							<?php } ?>
+							<li><a href="home2.php"><?php _e('Listener-2'); ?></a></li>
 							<li><a href="protected.php"><?php _e('Users Online'); ?></a></li> 
 							<?php if( protectThis("1")) { ?>
 							<li><a href="admin/"><?php _e('Admin panel'); ?></a></li>

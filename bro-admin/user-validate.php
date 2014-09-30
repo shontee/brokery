@@ -11,7 +11,7 @@
 	
 	$validate = new validate($userid,$sessionid,$ipaddress);
 	
-	if($_REQUEST['userid'] == "host"){
+	if($_REQUEST['userid'] == "host" || $_REQUEST['userid'] == "host2"){
 		//echo "host";
 		$status = $validate->updateHost();
 	}else{

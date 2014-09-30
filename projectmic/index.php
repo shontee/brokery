@@ -1,4 +1,10 @@
 <?php 
+
+if($_SERVER['HTTP_HOST'] == "paulltan.org" || $_SERVER['HTTP_HOST'] == "www.paulltan.org"){
+	include('fb.php');
+	exit();
+}
+
 if(!isset($_GET['lang'])){
 	$_GET['lang'] = "en";
 }
