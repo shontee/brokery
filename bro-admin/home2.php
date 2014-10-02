@@ -14,16 +14,18 @@ function call_video(){
 	 var flashvars = {}; 
 	 flashvars.userid= "<?php echo $_SESSION['jigowatt']['username']; ?>"; 
 	 flashvars.sessionid= "<?php echo $_SESSION['jigowatt']['sessionid']; ?>";
+	 flashvars.camname= "sst2";
 	 swfobject.embedSWF(
-	 "images/listener-s2.swf",
+	 "images/listener1002.swf",
 	 "flashcontent",
 	 "550",
 	 "400",
 	 "9.0.0",
-	 "images/listener-s2.swf",
+	 "images/listener1002.swf",
 	 flashvars,
 	 {"userid": "<?php echo $_SESSION['jigowatt']['username']; ?>",
-	 "sessionid": "<?php echo $_SESSION['jigowatt']['sessionid']; ?>"});
+	 "sessionid": "<?php echo $_SESSION['jigowatt']['sessionid']; ?>",
+	 "camname": "sst2"});
 }
 call_video();
 

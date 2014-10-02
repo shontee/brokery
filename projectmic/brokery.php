@@ -16,10 +16,10 @@ session_write_close();
 	<body>
 		<div id="brokery">
 		<OBJECT  classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="1060" HEIGHT="760" id="Yourfilename" ALIGN="">
-			<PARAM NAME=movie VALUE="front_images/brokery0929.swf"> 
+			<PARAM NAME=movie VALUE="front_images/brokery1002.swf"> 
 			<PARAM NAME=quality VALUE=high> 
 			<PARAM NAME=bgcolor VALUE=#333399> 
-		<EMBED src="front_images/brokery0929.swf" quality=high bgcolor=#333399 WIDTH="1060" HEIGHT="760" NAME="Yourfilename" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED> 
+		<EMBED src="front_images/brokery1002.swf" quality=high bgcolor=#333399 WIDTH="1060" HEIGHT="760" NAME="Yourfilename" ALIGN="" TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED> 
 		</OBJECT>
 		</div>
 		<OBJECT id="brokery_header" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="1060" HEIGHT="26" id="Yourfilename" ALIGN="">
